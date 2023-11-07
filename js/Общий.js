@@ -2821,23 +2821,23 @@
 // button.addEventListener('mouseover', func1);
 // button.addEventListener('mouseout', func2);
 
-function showTooltip(text, x, y) {
-  const tooltip = document.getElementById('tooltip');
-  tooltip.textContent = text;
-  tooltip.style.display = 'block';
-  tooltip.style.left = x + 'px';
-  tooltip.style.top = y + 'px';
-}
+// function showTooltip(text, x, y) {
+//   const tooltip = document.getElementById('tooltip');
+//   tooltip.textContent = text;
+//   tooltip.style.display = 'block';
+//   tooltip.style.left = x + 'px';
+//   tooltip.style.top = y + 'px';
+// }
 
-function hideTooltip() {
-  const tooltip = document.getElementById('tooltip');
-  tooltip.style.display = 'none';
-}
+// function hideTooltip() {
+//   const tooltip = document.getElementById('tooltip');
+//   tooltip.style.display = 'none';
+// }
 
-const button = document.querySelector('#button');
+// const button = document.querySelector('#button');
 
-button.addEventListener('mouseover', function (event) {
-  showTooltip('Привет', event.pageX, event.pageY + 20);
-});
+// button.addEventListener('mouseover', function (event) {
+//   showTooltip('Привет', event.pageX, event.pageY + 20);
+// });
 
-button.addEventListener('mouseout', hideTooltip);
+// button.addEventListener('mouseout', hideTooltip);
