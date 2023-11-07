@@ -2825,8 +2825,8 @@
 //   const tooltip = document.getElementById('tooltip');
 //   tooltip.textContent = text;
 //   tooltip.style.display = 'block';
-//   tooltip.style.left = x + 'px';
-//   tooltip.style.top = y + 'px';
+  // tooltip.style.left = x + 'px';
+  // tooltip.style.top = y + 'px';
 // }
 
 // function hideTooltip() {
