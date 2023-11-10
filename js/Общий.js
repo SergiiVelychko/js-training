@@ -2840,11 +2840,24 @@
 //   showTooltip('Привет', event.pageX, event.pageY + 20);
 // });
 
-// button.addEventListener('mouseout', hideTooltip);
-// -----------------------------------------
+// ----------------------------
+// const image = document.querySelector('#image');
+// console.log(image.src);
+// console.log(document.querySelector('#image').src='/images/img2.jpg')
 
-  const cars = [
-    { id: = 1
+// console.log(document.querySelector('#image').src);
+// console.log(document.querySelector('#image').width);
+// console.log(document.querySelector('#image').height);
 
-    }
-  ]
+// const element = document.querySelector('#image')
+// console.log(element.id)
+
+// Дан инпут. По получению фокуса этим инпутом запишите в него число 1, а по потери фокуса - число 2. Для обращения у инпуту внутри функции-обработчика используйте объект this.
+
+const input = document.querySelector('#elem')
+input.addEventListener('focus', first) 
+
+const first = function() {
+  const firstValue = input.value
+  console.log(firstValue = '1'); 
+}
