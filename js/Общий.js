@@ -2854,10 +2854,12 @@
 
 // Дан инпут. По получению фокуса этим инпутом запишите в него число 1, а по потери фокуса - число 2. Для обращения у инпуту внутри функции-обработчика используйте объект this.
 
-const input = document.querySelector('#elem')
-input.addEventListener('focus', first) 
+// const input = document.querySelector('#elem')
+// input.addEventListener('focus', first) 
 
-const first = function() {
-  const firstValue = input.value
-  console.log(firstValue = '1'); 
-}
+// const first = function() {
+//   const firstValue = input.value
+//   console.log(firstValue = '1'); 
+// }
+// ======================
+// Найдите первого потомка этого элемента и сделайте его текст красного цвета.
