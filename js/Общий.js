@@ -2840,4 +2840,85 @@
 //   showTooltip('Привет', event.pageX, event.pageY + 20);
 // });
 
-// button.addEventListener('mouseout', hideTooltip);
+// ----------------------------
+// const image = document.querySelector('#image');
+// console.log(image.src);
+// console.log(document.querySelector('#image').src='/images/img2.jpg')
+
+// console.log(document.querySelector('#image').src);
+// console.log(document.querySelector('#image').width);
+// console.log(document.querySelector('#image').height);
+
+// const element = document.querySelector('#image')
+// console.log(element.id)
+
+// Дан инпут. По получению фокуса этим инпутом запишите в него число 1, а по потери фокуса - число 2. Для обращения у инпуту внутри функции-обработчика используйте объект this.
+
+// const input = document.querySelector('#elem')
+// input.addEventListener('focus', first)
+
+// const first = function() {
+//   const firstValue = input.value
+//   console.log(firstValue = '1');
+// }
+// ======================
+
+/* <ul id="elem">
+
+<li>text</li>
+<li>text</li>
+<li>text</li>
+<li>text</li>
+<li>text</li>
+</ul> */
+
+// Найдите первого потомка этого элемента и сделайте его текст красного цвета.
+
+// const elem = document.querySelector('#elem')
+// const children = elem.children
+// // lastElementChild.style.color = 'red'
+// console.log(children + '!')
+
+// // Получаем элемент по его id
+// var elem = document.getElementById('elem');
+
+// // Находим первого потомка элемента
+// var firstChild = elem.firstChild;
+
+// // Устанавливаем цвет текста первого потомка в красный
+// firstChild.style.color = 'red';
+
+// Получаем элемент по его id
+// var elem = document.getElementById('elem');
+
+// // Получаем все потомки элемента и преобразуем NodeList в массив
+// var children = Array.from(elem.children);
+
+// // Добавляем к тексту каждого потомка символ '!'
+// children.forEach(function(child) {
+//     child.innerText += '!';
+// });
+// В этом коде Array.from() используется для преобразования объекта NodeList (который возвращается методом children) в массив, а затем метод forEach() применяется к каждому элементу массива для добавления символа '!' к тексту.
+
+// var elem = document.getElementById('elem');
+
+// // Получаем все потомки элемента
+// var children = elem.children;
+
+// // Проходимся по всем потомкам и добавляем к их тексту '!'
+// for (var i = 0; i < children.length; i++) {
+//     children[i].innerText += '!';
+// }
+
+// const parent = document.getElementById('parent')
+// const elems = parent.children;
+
+// for (let elem of elems) {
+//   elem.textContent += '!'
+// 	console.log(elem.textContent)
+// }
+
+// const elem = document.querySelector('#elem');
+// const parent = elem.parentElement;
+// console.log(parent);
+// parent.style.border = '1px solid red'
